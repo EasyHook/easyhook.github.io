@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="f7ce629c-553e-48cf-a796-2e16f564c6a2" Title="EasyHook" Url="html/N_EasyHook.htm">
+    <HelpTOCNode Id="b963ca2e-a1c0-4390-90aa-a8409a042e8d" Title="Config Class" Url="html/T_EasyHook_Config.htm">
+      <HelpTOCNode Title="Config Constructor " Url="html/M_EasyHook_Config__ctor.htm" />
+      <HelpTOCNode Id="2fb9f1c6-380f-46f9-a045-1b9dc2513494" Title="Config Properties" Url="html/Properties_T_EasyHook_Config.htm">
+        <HelpTOCNode Title="DependencyPath Property " Url="html/P_EasyHook_Config_DependencyPath.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f756fe4c-3f3a-4f4f-a80f-e83f3ddab41c" Title="Config Methods" Url="html/Methods_T_EasyHook_Config.htm">
+        <HelpTOCNode Title="DebugPrint Method " Url="html/M_EasyHook_Config_DebugPrint.htm" />
+        <HelpTOCNode Title="GetDependantSvcExecutableName Method " Url="html/M_EasyHook_Config_GetDependantSvcExecutableName.htm" />
+        <HelpTOCNode Title="GetProcessPath Method " Url="html/M_EasyHook_Config_GetProcessPath.htm" />
+        <HelpTOCNode Title="GetSvcExecutableName Method " Url="html/M_EasyHook_Config_GetSvcExecutableName.htm" />
+        <HelpTOCNode Title="GetWOW64BypassExecutableName Method " Url="html/M_EasyHook_Config_GetWOW64BypassExecutableName.htm" />
+        <HelpTOCNode Title="PrintComment Method " Url="html/M_EasyHook_Config_PrintComment.htm" />
+        <HelpTOCNode Title="PrintError Method " Url="html/M_EasyHook_Config_PrintError.htm" />
+        <HelpTOCNode Title="PrintWarning Method " Url="html/M_EasyHook_Config_PrintWarning.htm" />
+        <HelpTOCNode Title="Register Method " Url="html/M_EasyHook_Config_Register.htm" />
+        <HelpTOCNode Title="RunCommand Method " Url="html/M_EasyHook_Config_RunCommand.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac3a6f3d-cd5a-4a12-9e6a-e55e9f331452" Title="HelperServiceInterface Class" Url="html/T_EasyHook_HelperServiceInterface.htm">
+      <HelpTOCNode Title="HelperServiceInterface Constructor " Url="html/M_EasyHook_HelperServiceInterface__ctor.htm" />
+      <HelpTOCNode Id="c17d70ee-99cd-48af-90b4-daf0c5c9b21b" Title="HelperServiceInterface Methods" Url="html/Methods_T_EasyHook_HelperServiceInterface.htm">
+        <HelpTOCNode Title="BeginInjection Method " Url="html/M_EasyHook_HelperServiceInterface_BeginInjection.htm" />
+        <HelpTOCNode Title="EndInjection Method " Url="html/M_EasyHook_HelperServiceInterface_EndInjection.htm" />
+        <HelpTOCNode Title="ExecuteAsService(TClass) Method " Url="html/M_EasyHook_HelperServiceInterface_ExecuteAsService__1.htm" />
+        <HelpTOCNode Title="InjectEx Method " Url="html/M_EasyHook_HelperServiceInterface_InjectEx.htm" />
+        <HelpTOCNode Title="InjectionCompleted Method " Url="html/M_EasyHook_HelperServiceInterface_InjectionCompleted.htm" />
+        <HelpTOCNode Title="InjectionException Method " Url="html/M_EasyHook_HelperServiceInterface_InjectionException.htm" />
+        <HelpTOCNode Title="Ping Method " Url="html/M_EasyHook_HelperServiceInterface_Ping.htm" />
+        <HelpTOCNode Title="WaitForInjection Method " Url="html/M_EasyHook_HelperServiceInterface_WaitForInjection.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="57b62905-554d-4f82-9231-f13610b8d17e" Title="HookAccessControl Class" Url="html/T_EasyHook_HookAccessControl.htm">
+      <HelpTOCNode Id="bfbea046-2828-4623-acb7-6ed63d3c58ba" Title="HookAccessControl Properties" Url="html/Properties_T_EasyHook_HookAccessControl.htm">
+        <HelpTOCNode Title="IsExclusive Property " Url="html/P_EasyHook_HookAccessControl_IsExclusive.htm" />
+        <HelpTOCNode Title="IsInclusive Property " Url="html/P_EasyHook_HookAccessControl_IsInclusive.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ac91837f-7f35-4f67-a46e-d2a67dc22248" Title="HookAccessControl Methods" Url="html/Methods_T_EasyHook_HookAccessControl.htm">
+        <HelpTOCNode Title="GetEntries Method " Url="html/M_EasyHook_HookAccessControl_GetEntries.htm" />
+        <HelpTOCNode Title="SetExclusiveACL Method " Url="html/M_EasyHook_HookAccessControl_SetExclusiveACL.htm" />
+        <HelpTOCNode Title="SetInclusiveACL Method " Url="html/M_EasyHook_HookAccessControl_SetInclusiveACL.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d9b2b69f-ea73-466d-9538-335c184a520e" Title="HookRuntimeInfo Class" Url="html/T_EasyHook_HookRuntimeInfo.htm">
+      <HelpTOCNode Title="HookRuntimeInfo Constructor " Url="html/M_EasyHook_HookRuntimeInfo__ctor.htm" />
+      <HelpTOCNode Id="ddb014f4-07fb-4471-8775-6593ca08dc9c" Title="HookRuntimeInfo Properties" Url="html/Properties_T_EasyHook_HookRuntimeInfo.htm">
+        <HelpTOCNode Title="AddressOfReturnAddress Property " Url="html/P_EasyHook_HookRuntimeInfo_AddressOfReturnAddress.htm" />
+        <HelpTOCNode Title="Callback Property " Url="html/P_EasyHook_HookRuntimeInfo_Callback.htm" />
+        <HelpTOCNode Title="CallingManagedModule Property " Url="html/P_EasyHook_HookRuntimeInfo_CallingManagedModule.htm" />
+        <HelpTOCNode Title="CallingUnmanagedModule Property " Url="html/P_EasyHook_HookRuntimeInfo_CallingUnmanagedModule.htm" />
+        <HelpTOCNode Title="Handle Property " Url="html/P_EasyHook_HookRuntimeInfo_Handle.htm" />
+        <HelpTOCNode Title="IsHandlerContext Property " Url="html/P_EasyHook_HookRuntimeInfo_IsHandlerContext.htm" />
+        <HelpTOCNode Title="ManagedStackTrace Property " Url="html/P_EasyHook_HookRuntimeInfo_ManagedStackTrace.htm" />
+        <HelpTOCNode Title="ReturnAddress Property " Url="html/P_EasyHook_HookRuntimeInfo_ReturnAddress.htm" />
+        <HelpTOCNode Title="UnmanagedStackTrace Property " Url="html/P_EasyHook_HookRuntimeInfo_UnmanagedStackTrace.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9403fe6c-be1d-49eb-bc41-31c75013a215" Title="HookRuntimeInfo Methods" Url="html/Methods_T_EasyHook_HookRuntimeInfo.htm">
+        <HelpTOCNode Title="PointerToModule Method " Url="html/M_EasyHook_HookRuntimeInfo_PointerToModule.htm" />
+        <HelpTOCNode Title="UpdateUnmanagedModuleList Method " Url="html/M_EasyHook_HookRuntimeInfo_UpdateUnmanagedModuleList.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="IEntryPoint Interface" Url="html/T_EasyHook_IEntryPoint.htm" />
+    <HelpTOCNode Id="5a8deebf-a17f-4794-86ee-acfafba20e2a" Title="InjectionLoader Class" Url="html/T_EasyHook_InjectionLoader.htm">
+      <HelpTOCNode Title="InjectionLoader Constructor " Url="html/M_EasyHook_InjectionLoader__ctor.htm" />
+      <HelpTOCNode Id="4a4c78bd-b21e-40d0-af9d-2b74486c0707" Title="InjectionLoader Methods" Url="html/Methods_T_EasyHook_InjectionLoader.htm">
+        <HelpTOCNode Title="Main Method " Url="html/M_EasyHook_InjectionLoader_Main.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="InjectionOptions Enumeration" Url="html/T_EasyHook_InjectionOptions.htm" />
+    <HelpTOCNode Id="6705b747-5c7b-4a64-a84c-6b3dbdefcd5c" Title="LocalHook Class" Url="html/T_EasyHook_LocalHook.htm">
+      <HelpTOCNode Id="11440d9d-caf4-4dd9-b262-d45d9e8d40da" Title="LocalHook Properties" Url="html/Properties_T_EasyHook_LocalHook.htm">
+        <HelpTOCNode Title="Callback Property " Url="html/P_EasyHook_LocalHook_Callback.htm" />
+        <HelpTOCNode Title="GlobalThreadACL Property " Url="html/P_EasyHook_LocalHook_GlobalThreadACL.htm" />
+        <HelpTOCNode Title="ThreadACL Property " Url="html/P_EasyHook_LocalHook_ThreadACL.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="913403ed-9542-4b85-b7ae-9d7d95ac455b" Title="LocalHook Methods" Url="html/Methods_T_EasyHook_LocalHook.htm">
+        <HelpTOCNode Title="Create Method " Url="html/M_EasyHook_LocalHook_Create.htm" />
+        <HelpTOCNode Title="CreateUnmanaged Method " Url="html/M_EasyHook_LocalHook_CreateUnmanaged.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/M_EasyHook_LocalHook_Dispose.htm" />
+        <HelpTOCNode Title="EnableRIPRelocation Method " Url="html/M_EasyHook_LocalHook_EnableRIPRelocation.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/M_EasyHook_LocalHook_Finalize.htm" />
+        <HelpTOCNode Title="GetNameByHandle Method " Url="html/M_EasyHook_LocalHook_GetNameByHandle.htm" />
+        <HelpTOCNode Title="GetProcAddress Method " Url="html/M_EasyHook_LocalHook_GetProcAddress.htm" />
+        <HelpTOCNode Title="GetProcDelegate(TDelegate) Method " Url="html/M_EasyHook_LocalHook_GetProcDelegate__1.htm" />
+        <HelpTOCNode Title="GetProcessIdByHandle Method " Url="html/M_EasyHook_LocalHook_GetProcessIdByHandle.htm" />
+        <HelpTOCNode Title="GetThreadIdByHandle Method " Url="html/M_EasyHook_LocalHook_GetThreadIdByHandle.htm" />
+        <HelpTOCNode Title="IsThreadIntercepted Method " Url="html/M_EasyHook_LocalHook_IsThreadIntercepted.htm" />
+        <HelpTOCNode Title="Release Method " Url="html/M_EasyHook_LocalHook_Release.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4d5a7d36-2da5-490b-9243-8a3a1f295974" Title="NativeAPI Class" Url="html/T_EasyHook_NativeAPI.htm">
+      <HelpTOCNode Id="37d86139-8f02-4d86-943d-fa907b7ac429" Title="NativeAPI Methods" Url="html/Methods_T_EasyHook_NativeAPI.htm">
+        <HelpTOCNode Title="CloseHandle Method " Url="html/M_EasyHook_NativeAPI_CloseHandle.htm" />
+        <HelpTOCNode Title="DbgAttachDebugger Method " Url="html/M_EasyHook_NativeAPI_DbgAttachDebugger.htm" />
+        <HelpTOCNode Title="DbgGetProcessIdByHandle Method " Url="html/M_EasyHook_NativeAPI_DbgGetProcessIdByHandle.htm" />
+        <HelpTOCNode Title="DbgGetThreadIdByHandle Method " Url="html/M_EasyHook_NativeAPI_DbgGetThreadIdByHandle.htm" />
+        <HelpTOCNode Title="DbgHandleToObjectName Method " Url="html/M_EasyHook_NativeAPI_DbgHandleToObjectName.htm" />
+        <HelpTOCNode Title="GacInstallAssemblies Method " Url="html/M_EasyHook_NativeAPI_GacInstallAssemblies.htm" />
+        <HelpTOCNode Title="GacUninstallAssemblies Method " Url="html/M_EasyHook_NativeAPI_GacUninstallAssemblies.htm" />
+        <HelpTOCNode Title="GetCurrentProcessId Method " Url="html/M_EasyHook_NativeAPI_GetCurrentProcessId.htm" />
+        <HelpTOCNode Title="GetCurrentThreadId Method " Url="html/M_EasyHook_NativeAPI_GetCurrentThreadId.htm" />
+        <HelpTOCNode Title="GetModuleHandle Method " Url="html/M_EasyHook_NativeAPI_GetModuleHandle.htm" />
+        <HelpTOCNode Title="GetProcAddress Method " Url="html/M_EasyHook_NativeAPI_GetProcAddress.htm" />
+        <HelpTOCNode Title="LhBarrierBeginStackTrace Method " Url="html/M_EasyHook_NativeAPI_LhBarrierBeginStackTrace.htm" />
+        <HelpTOCNode Title="LhBarrierEndStackTrace Method " Url="html/M_EasyHook_NativeAPI_LhBarrierEndStackTrace.htm" />
+        <HelpTOCNode Title="LhBarrierGetAddressOfReturnAddress Method " Url="html/M_EasyHook_NativeAPI_LhBarrierGetAddressOfReturnAddress.htm" />
+        <HelpTOCNode Title="LhBarrierGetCallback Method " Url="html/M_EasyHook_NativeAPI_LhBarrierGetCallback.htm" />
+        <HelpTOCNode Title="LhBarrierGetCallingModule Method " Url="html/M_EasyHook_NativeAPI_LhBarrierGetCallingModule.htm" />
+        <HelpTOCNode Title="LhBarrierGetReturnAddress Method " Url="html/M_EasyHook_NativeAPI_LhBarrierGetReturnAddress.htm" />
+        <HelpTOCNode Title="LhInstallHook Method " Url="html/M_EasyHook_NativeAPI_LhInstallHook.htm" />
+        <HelpTOCNode Title="LhIsThreadIntercepted Method " Url="html/M_EasyHook_NativeAPI_LhIsThreadIntercepted.htm" />
+        <HelpTOCNode Title="LhSetExclusiveACL Method " Url="html/M_EasyHook_NativeAPI_LhSetExclusiveACL.htm" />
+        <HelpTOCNode Title="LhSetGlobalExclusiveACL Method " Url="html/M_EasyHook_NativeAPI_LhSetGlobalExclusiveACL.htm" />
+        <HelpTOCNode Title="LhSetGlobalInclusiveACL Method " Url="html/M_EasyHook_NativeAPI_LhSetGlobalInclusiveACL.htm" />
+        <HelpTOCNode Title="LhSetInclusiveACL Method " Url="html/M_EasyHook_NativeAPI_LhSetInclusiveACL.htm" />
+        <HelpTOCNode Title="LhUninstallAllHooks Method " Url="html/M_EasyHook_NativeAPI_LhUninstallAllHooks.htm" />
+        <HelpTOCNode Title="LhUninstallHook Method " Url="html/M_EasyHook_NativeAPI_LhUninstallHook.htm" />
+        <HelpTOCNode Title="LhWaitForPendingRemovals Method " Url="html/M_EasyHook_NativeAPI_LhWaitForPendingRemovals.htm" />
+        <HelpTOCNode Title="LoadLibrary Method " Url="html/M_EasyHook_NativeAPI_LoadLibrary.htm" />
+        <HelpTOCNode Title="RhGetProcessToken Method " Url="html/M_EasyHook_NativeAPI_RhGetProcessToken.htm" />
+        <HelpTOCNode Title="RhInjectLibrary Method " Url="html/M_EasyHook_NativeAPI_RhInjectLibrary.htm" />
+        <HelpTOCNode Title="RhInjectLibraryEx Method " Url="html/M_EasyHook_NativeAPI_RhInjectLibraryEx.htm" />
+        <HelpTOCNode Title="RhInstallDriver Method " Url="html/M_EasyHook_NativeAPI_RhInstallDriver.htm" />
+        <HelpTOCNode Title="RhInstallSupportDriver Method " Url="html/M_EasyHook_NativeAPI_RhInstallSupportDriver.htm" />
+        <HelpTOCNode Title="RhIsAdministrator Method " Url="html/M_EasyHook_NativeAPI_RhIsAdministrator.htm" />
+        <HelpTOCNode Title="RhIsX64Process Method " Url="html/M_EasyHook_NativeAPI_RhIsX64Process.htm" />
+        <HelpTOCNode Title="RhIsX64System Method " Url="html/M_EasyHook_NativeAPI_RhIsX64System.htm" />
+        <HelpTOCNode Title="RhWakeUpProcess Method " Url="html/M_EasyHook_NativeAPI_RhWakeUpProcess.htm" />
+        <HelpTOCNode Title="RtlCaptureStackBackTrace Method " Url="html/M_EasyHook_NativeAPI_RtlCaptureStackBackTrace.htm" />
+        <HelpTOCNode Title="RtlCreateSuspendedProcess Method " Url="html/M_EasyHook_NativeAPI_RtlCreateSuspendedProcess.htm" />
+        <HelpTOCNode Title="RtlGetLastError Method " Url="html/M_EasyHook_NativeAPI_RtlGetLastError.htm" />
+        <HelpTOCNode Title="RtlGetLastErrorString Method " Url="html/M_EasyHook_NativeAPI_RtlGetLastErrorString.htm" />
+        <HelpTOCNode Title="RtlInstallService Method " Url="html/M_EasyHook_NativeAPI_RtlInstallService.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fbe20cd5-06d7-4458-a8de-a12a71d1bc75" Title="NativeAPI Fields" Url="html/Fields_T_EasyHook_NativeAPI.htm">
+        <HelpTOCNode Title="EASYHOOK_INJECT_DEFAULT Field" Url="html/F_EasyHook_NativeAPI_EASYHOOK_INJECT_DEFAULT.htm" />
+        <HelpTOCNode Title="EASYHOOK_INJECT_MANAGED Field" Url="html/F_EasyHook_NativeAPI_EASYHOOK_INJECT_MANAGED.htm" />
+        <HelpTOCNode Title="Is64Bit Field" Url="html/F_EasyHook_NativeAPI_Is64Bit.htm" />
+        <HelpTOCNode Title="MAX_ACE_COUNT Field" Url="html/F_EasyHook_NativeAPI_MAX_ACE_COUNT.htm" />
+        <HelpTOCNode Title="MAX_HOOK_COUNT Field" Url="html/F_EasyHook_NativeAPI_MAX_HOOK_COUNT.htm" />
+        <HelpTOCNode Title="STATUS_ACCESS_DENIED Field" Url="html/F_EasyHook_NativeAPI_STATUS_ACCESS_DENIED.htm" />
+        <HelpTOCNode Title="STATUS_BUFFER_TOO_SMALL Field" Url="html/F_EasyHook_NativeAPI_STATUS_BUFFER_TOO_SMALL.htm" />
+        <HelpTOCNode Title="STATUS_INSUFFICIENT_RESOURCES Field" Url="html/F_EasyHook_NativeAPI_STATUS_INSUFFICIENT_RESOURCES.htm" />
+        <HelpTOCNode Title="STATUS_INTERNAL_ERROR Field" Url="html/F_EasyHook_NativeAPI_STATUS_INTERNAL_ERROR.htm" />
+        <HelpTOCNode Title="STATUS_INVALID_PARAMETER Field" Url="html/F_EasyHook_NativeAPI_STATUS_INVALID_PARAMETER.htm" />
+        <HelpTOCNode Title="STATUS_INVALID_PARAMETER_1 Field" Url="html/F_EasyHook_NativeAPI_STATUS_INVALID_PARAMETER_1.htm" />
+        <HelpTOCNode Title="STATUS_INVALID_PARAMETER_2 Field" Url="html/F_EasyHook_NativeAPI_STATUS_INVALID_PARAMETER_2.htm" />
+        <HelpTOCNode Title="STATUS_INVALID_PARAMETER_3 Field" Url="html/F_EasyHook_NativeAPI_STATUS_INVALID_PARAMETER_3.htm" />
+        <HelpTOCNode Title="STATUS_INVALID_PARAMETER_4 Field" Url="html/F_EasyHook_NativeAPI_STATUS_INVALID_PARAMETER_4.htm" />
+        <HelpTOCNode Title="STATUS_INVALID_PARAMETER_5 Field" Url="html/F_EasyHook_NativeAPI_STATUS_INVALID_PARAMETER_5.htm" />
+        <HelpTOCNode Title="STATUS_NO_MEMORY Field" Url="html/F_EasyHook_NativeAPI_STATUS_NO_MEMORY.htm" />
+        <HelpTOCNode Title="STATUS_NOT_SUPPORTED Field" Url="html/F_EasyHook_NativeAPI_STATUS_NOT_SUPPORTED.htm" />
+        <HelpTOCNode Title="STATUS_SUCCESS Field" Url="html/F_EasyHook_NativeAPI_STATUS_SUCCESS.htm" />
+        <HelpTOCNode Title="STATUS_WOW_ASSERTION Field" Url="html/F_EasyHook_NativeAPI_STATUS_WOW_ASSERTION.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b75f73a-147a-49d4-af2e-260e87a1b56a" Title="RemoteHooking Class" Url="html/T_EasyHook_RemoteHooking.htm">
+      <HelpTOCNode Id="910437dd-9aad-4513-b873-d444a9430faa" Title="RemoteHooking Properties" Url="html/Properties_T_EasyHook_RemoteHooking.htm">
+        <HelpTOCNode Title="IsAdministrator Property " Url="html/P_EasyHook_RemoteHooking_IsAdministrator.htm" />
+        <HelpTOCNode Title="IsX64System Property " Url="html/P_EasyHook_RemoteHooking_IsX64System.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="296f6fa3-88c0-49f4-8755-c9a04780a345" Title="RemoteHooking Methods" Url="html/Methods_T_EasyHook_RemoteHooking.htm">
+        <HelpTOCNode Id="ee895164-8e6d-4041-b814-05c5a430f30f" Title="CreateAndInject Method " Url="html/Overload_EasyHook_RemoteHooking_CreateAndInject.htm">
+          <HelpTOCNode Title="CreateAndInject Method (String, String, Int32, String, String, Int32, Object[])" Url="html/M_EasyHook_RemoteHooking_CreateAndInject_1.htm" />
+          <HelpTOCNode Title="CreateAndInject Method (String, String, Int32, InjectionOptions, String, String, Int32, Object[])" Url="html/M_EasyHook_RemoteHooking_CreateAndInject.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ExecuteAsService(TClass) Method " Url="html/M_EasyHook_RemoteHooking_ExecuteAsService__1.htm" />
+        <HelpTOCNode Title="GetCurrentProcessId Method " Url="html/M_EasyHook_RemoteHooking_GetCurrentProcessId.htm" />
+        <HelpTOCNode Title="GetCurrentThreadId Method " Url="html/M_EasyHook_RemoteHooking_GetCurrentThreadId.htm" />
+        <HelpTOCNode Title="GetProcessIdentity Method " Url="html/M_EasyHook_RemoteHooking_GetProcessIdentity.htm" />
+        <HelpTOCNode Id="06a67ed6-e310-4548-a5de-f126824b5d70" Title="Inject Method " Url="html/Overload_EasyHook_RemoteHooking_Inject.htm">
+          <HelpTOCNode Title="Inject Method (Int32, String, String, Object[])" Url="html/M_EasyHook_RemoteHooking_Inject_1.htm" />
+          <HelpTOCNode Title="Inject Method (Int32, InjectionOptions, String, String, Object[])" Url="html/M_EasyHook_RemoteHooking_Inject.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="InstallDriver Method " Url="html/M_EasyHook_RemoteHooking_InstallDriver.htm" />
+        <HelpTOCNode Title="InstallSupportDriver Method " Url="html/M_EasyHook_RemoteHooking_InstallSupportDriver.htm" />
+        <HelpTOCNode Title="IpcConnectClient(TRemoteObject) Method " Url="html/M_EasyHook_RemoteHooking_IpcConnectClient__1.htm" />
+        <HelpTOCNode Id="e1970a09-758c-469b-81e9-d532f614b3aa" Title="IpcCreateServer Method " Url="html/Overload_EasyHook_RemoteHooking_IpcCreateServer.htm">
+          <HelpTOCNode Title="IpcCreateServer(TRemoteObject) Method (String, WellKnownObjectMode, WellKnownSidType[])" Url="html/M_EasyHook_RemoteHooking_IpcCreateServer__1.htm" />
+          <HelpTOCNode Title="IpcCreateServer(TRemoteObject) Method (String, WellKnownObjectMode, TRemoteObject, WellKnownSidType[])" Url="html/M_EasyHook_RemoteHooking_IpcCreateServer__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsX64Process Method " Url="html/M_EasyHook_RemoteHooking_IsX64Process.htm" />
+        <HelpTOCNode Title="WakeUpProcess Method " Url="html/M_EasyHook_RemoteHooking_WakeUpProcess.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3753a505-122d-46bf-a4ec-4954d74fca10" Title="RemoteHooking.IContext Interface" Url="html/T_EasyHook_RemoteHooking_IContext.htm">
+      <HelpTOCNode Id="fa269bf4-d0fc-4f4e-9cd0-c74f09b7bed0" Title="IContext Properties" Url="html/Properties_T_EasyHook_RemoteHooking_IContext.htm">
+        <HelpTOCNode Title="HostPID Property " Url="html/P_EasyHook_RemoteHooking_IContext_HostPID.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c6d2a490-760d-4b45-b873-559b798680d9" Title="System.GACManagedAccess" Url="html/N_System_GACManagedAccess.htm">
+    <HelpTOCNode Id="606835de-f233-416c-9c2b-bb91aa7c9939" Title="AssemblyCache Class" Url="html/T_System_GACManagedAccess_AssemblyCache.htm">
+      <HelpTOCNode Id="2da6ad25-2de5-4941-aac1-9f47e9ae71de" Title="AssemblyCache Methods" Url="html/Methods_T_System_GACManagedAccess_AssemblyCache.htm">
+        <HelpTOCNode Title="InstallAssemblies Method " Url="html/M_System_GACManagedAccess_AssemblyCache_InstallAssemblies.htm" />
+        <HelpTOCNode Title="InstallAssembly Method " Url="html/M_System_GACManagedAccess_AssemblyCache_InstallAssembly.htm" />
+        <HelpTOCNode Title="QueryAssemblyInfo Method " Url="html/M_System_GACManagedAccess_AssemblyCache_QueryAssemblyInfo.htm" />
+        <HelpTOCNode Title="UninstallAssemblies Method " Url="html/M_System_GACManagedAccess_AssemblyCache_UninstallAssemblies.htm" />
+        <HelpTOCNode Title="UninstallAssembly Method " Url="html/M_System_GACManagedAccess_AssemblyCache_UninstallAssembly.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fb741acd-8696-4ff8-b1d0-7f9fe6723932" Title="AssemblyCacheEnum Class" Url="html/T_System_GACManagedAccess_AssemblyCacheEnum.htm">
+      <HelpTOCNode Title="AssemblyCacheEnum Constructor " Url="html/M_System_GACManagedAccess_AssemblyCacheEnum__ctor.htm" />
+      <HelpTOCNode Id="f24310c6-f022-4211-b844-bad912929e6e" Title="AssemblyCacheEnum Methods" Url="html/Methods_T_System_GACManagedAccess_AssemblyCacheEnum.htm">
+        <HelpTOCNode Title="GetNextAssembly Method " Url="html/M_System_GACManagedAccess_AssemblyCacheEnum_GetNextAssembly.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a994ff36-b169-4077-b0bc-e12da350fe1e" Title="AssemblyCacheInstallReferenceEnum Class" Url="html/T_System_GACManagedAccess_AssemblyCacheInstallReferenceEnum.htm">
+      <HelpTOCNode Title="AssemblyCacheInstallReferenceEnum Constructor " Url="html/M_System_GACManagedAccess_AssemblyCacheInstallReferenceEnum__ctor.htm" />
+      <HelpTOCNode Id="c3555adc-89a7-44a9-aa8a-d09bad85c1bf" Title="AssemblyCacheInstallReferenceEnum Methods" Url="html/Methods_T_System_GACManagedAccess_AssemblyCacheInstallReferenceEnum.htm">
+        <HelpTOCNode Title="GetNextReference Method " Url="html/M_System_GACManagedAccess_AssemblyCacheInstallReferenceEnum_GetNextReference.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AssemblyCacheUninstallDisposition Enumeration" Url="html/T_System_GACManagedAccess_AssemblyCacheUninstallDisposition.htm" />
+    <HelpTOCNode Title="AssemblyCommitFlags Enumeration" Url="html/T_System_GACManagedAccess_AssemblyCommitFlags.htm" />
+    <HelpTOCNode Id="24c4f349-e793-452e-b4a1-e4716ab6bbe8" Title="InstallReference Class" Url="html/T_System_GACManagedAccess_InstallReference.htm">
+      <HelpTOCNode Title="InstallReference Constructor " Url="html/M_System_GACManagedAccess_InstallReference__ctor.htm" />
+      <HelpTOCNode Id="59248ede-9631-4a10-a5ed-c79e70905658" Title="InstallReference Properties" Url="html/Properties_T_System_GACManagedAccess_InstallReference.htm">
+        <HelpTOCNode Title="Description Property " Url="html/P_System_GACManagedAccess_InstallReference_Description.htm" />
+        <HelpTOCNode Title="GuidScheme Property " Url="html/P_System_GACManagedAccess_InstallReference_GuidScheme.htm" />
+        <HelpTOCNode Title="Identifier Property " Url="html/P_System_GACManagedAccess_InstallReference_Identifier.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InstallReference Methods" Url="html/Methods_T_System_GACManagedAccess_InstallReference.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0391d256-b71b-4214-a7b6-a7a67575d792" Title="InstallReferenceGuid Class" Url="html/T_System_GACManagedAccess_InstallReferenceGuid.htm">
+      <HelpTOCNode Title="InstallReferenceGuid Constructor " Url="html/M_System_GACManagedAccess_InstallReferenceGuid__ctor.htm" />
+      <HelpTOCNode Id="0037d1c3-9936-4c6b-9c80-fd22e337e00a" Title="InstallReferenceGuid Methods" Url="html/Methods_T_System_GACManagedAccess_InstallReferenceGuid.htm">
+        <HelpTOCNode Title="IsValidGuidScheme Method " Url="html/M_System_GACManagedAccess_InstallReferenceGuid_IsValidGuidScheme.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97c2df50-7c85-4920-bf00-f0081bba5d5c" Title="InstallReferenceGuid Fields" Url="html/Fields_T_System_GACManagedAccess_InstallReferenceGuid.htm">
+        <HelpTOCNode Title="FilePathGuid Field" Url="html/F_System_GACManagedAccess_InstallReferenceGuid_FilePathGuid.htm" />
+        <HelpTOCNode Title="MsiGuid Field" Url="html/F_System_GACManagedAccess_InstallReferenceGuid_MsiGuid.htm" />
+        <HelpTOCNode Title="OpaqueGuid Field" Url="html/F_System_GACManagedAccess_InstallReferenceGuid_OpaqueGuid.htm" />
+        <HelpTOCNode Title="OsInstallGuid Field" Url="html/F_System_GACManagedAccess_InstallReferenceGuid_OsInstallGuid.htm" />
+        <HelpTOCNode Title="UninstallSubkeyGuid Field" Url="html/F_System_GACManagedAccess_InstallReferenceGuid_UninstallSubkeyGuid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
