@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>EasyHook - download</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>EasyHook</h1>
+          <h2>The reinvention of Windows API Hooking</h2>
+        </header>
+          <section id="downloads" class="clearfix">
+              <a href="./index.html" id="home" class=""><span>Home</span></a> | <a href="./downloads.html" id="download"><span>Downloads</span></a> | <a href="./api/index.html" id="api-reference" class=""><span>API Reference</span></a>
+              <a href="https://github.com/EasyHook/EasyHook" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          </section>
+        <hr>
+        <section id="main_content">
+            <div style="float: right;">
+                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- MediumRectangle300x250 -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:300px;height:250px"
+                     data-ad-client="ca-pub-7073730100723702"
+                     data-ad-slot="6607924329"></ins>
+                <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <h2>downloading...</h2>
+			<script type="text/javascript">
+				var interval, count = 4;
+				function getUrlVars()
+				{
+					var vars = [], hash;
+					var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+					for(var i = 0; i < hashes.length; i++)
+					{
+						hash = hashes[i].split('=');
+						vars.push(hash[0]);
+						vars[hash[0]] = hash[1];
+					}
+					return vars;
+				}
+				function downloadFile(u) {
+					window.location = $(u).attr('href');
+				}
+				function startDownload() {
+					interval = setInterval(function() {
+					    count -= 1;
+					    if (count == 0) {
+					        var url = getUrlVars()['url'];
+							clearInterval(interval);
+							$('#dlCountdownMessage').html('Click <b>' +
+								'<a id="dlDownload"' +
+								'href="' + getUrlVars()['url'] + '">' +
+								'here</a></b> if your browser does not start the download automatically.');
+                            if (url !== undefined && url !== '')
+							    downloadFile($('a#dlDownload'));
+						} else {
+						  $('#dlCountdown').text(count + ' second' + (count != 1 ? 's' : ''));
+						}
+					}, 1000);
+				}
+			</script>
+            <p>
+                <span id="dlCountdownMessage">Your download will start in <span id="dlCountdown">4 seconds</span>.</span>
+            </p>
+			<script type="text/javascript">
+				startDownload();
+			</script>
+        </section>
+
+        <footer style="clear: both;">
+          Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+		<script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-66127710-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+
+      </div>
+    </div>
+  </body>
+</html>

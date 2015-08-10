@@ -105,7 +105,7 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 179px;
+  min-width: 150px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 15px;
@@ -150,6 +150,11 @@ a.button span {
   display: block;
   height: 23px;
   padding-left: 50px;
+  padding-right: 25px;
+}
+
+#main_content a.button {
+    float: right;
 }
 
 #download-zip span {
@@ -163,6 +168,7 @@ a.button span {
 }
 #view-on-github {
   margin-right: 0;
+  float: right;
 }
 
 code, pre {
