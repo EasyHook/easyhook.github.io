@@ -7,6 +7,10 @@
     border-top: 1px solid #D6D5D5;
 }
 
+.release-downloads-noad {
+    width: 100%;
+}
+
 .release-downloads li {
     display: block;
     padding-top: 8px;

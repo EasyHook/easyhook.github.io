@@ -35,9 +35,11 @@
 
             <p>The EasyHook.IEntryPoint now supports method overloads for the constructor and Run() injection entry point. A matching constructor and Run() method pair must be defined for each overloaded set of parameters.</p>
 
+            <p>COM interfaces are now easier to hook with the <a href="./api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a> class that simplifies retrieval of method addresses from COM interfaces.</p>
+
             <p>Please report any bugs in the discussion forum or in the issue tracker.</p>
 
-            <h4>v2.7.5558.0:</h4>
+            <h4>v2.7.5726.0 (Aug-27-2015):</h4>
             <div style="float: right;">
                 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- MediumRectangle300x250 -->
@@ -50,17 +52,51 @@
                 </script>
             </div>
             <ul class="release-downloads">
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5558.0/EasyHook-2.7.5558.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">745KB</small><span>EasyHook 2.7.5558.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5558.0.zip" class="download-zip" rel="nofollow"><small class="filesize">833KB</small><span>EasyHook 2.7.5558.0 Source code (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5719.0/EasyHook-2.7.5726.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">642KB</small><span>EasyHook 2.7.5726.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5726.0.zip" class="download-zip" rel="nofollow"><small class="filesize">870KB</small><span>EasyHook 2.7.5726.0 Source code (zip)</span></a></li>
                 <li><a href="./api/index.html" class="download-link"><span>EasyHook 2.7 API reference (link)</span></a></li>
                 <li><a href="./download.html?url=./downloads/EasyHook26Tutorial.pdf" class="download-pdf" rel="nofollow"><small class="filesize">424KB</small><span>EasyHook 2.6 Tutorial (pdf)</span></a></li>
                 <li><a href="./download.html?url=./downloads/EasyHook26UnmanagedAPI.pdf" class="download-pdf" rel="nofollow"><small class="filesize">387KB</small><span>EasyHook 2.6 Unmanaged API (pdf)</span></a></li>
+            </ul>
+
+            <h4>v2.7.5719.0 (Aug-27-2015):</h4>
+            <p><strong>New:</strong> COM interfaces are now easier to hook with the <a href="./api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a> class that simplifies retrieval of method addresses from COM interfaces.</p>
+            <ul class="release-downloads release-downloads-noad">
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5719.0/EasyHook-2.7.5719.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">607KB</small><span>EasyHook 2.7.5719.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5719.0.zip" class="download-zip" rel="nofollow"><small class="filesize">866KB</small><span>EasyHook 2.7.5719.0 Source code (zip)</span></a></li>
+            </ul>
+
+            <h4>v2.7.5558.0:</h4>
+            
+            <ul class="release-downloads release-downloads-noad">
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5558.0/EasyHook-2.7.5558.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">745KB</small><span>EasyHook 2.7.5558.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5558.0.zip" class="download-zip" rel="nofollow"><small class="filesize">833KB</small><span>EasyHook 2.7.5558.0 Source code (zip)</span></a></li>
             </ul>
 
             <p>Note: before extracting the ZIP file you may need to "Unblock" it if downloaded using Internet Explorer. See <a href="http://stackoverflow.com/a/8268636/323899" target="_blank">http://stackoverflow.com/a/8268636/323899</a></p>
 
             <h4>Change log</h4>
             
+            <h5>v2.7.5726.0 Sep-5-2015</h5>
+
+            <ul>
+                <li>Fixed bug where local Hook variable was not initialized correctly under certain circumstances - <a href="https://github.com/EasyHook/EasyHook/issues/38" class="issue-link" title="Potential LhFreeMemory call on random pointer">#38</a> </li>
+                <li>Addressed all significant compiler warnings - <a href="https://github.com/EasyHook/EasyHook/issues/39" class="issue-link" title="Address compiler warnings">#39</a> </li>
+                <li>Fixed COMClassInfo XML doco example and moved to EasyHook namespace</li>
+                <li>EasyHook driver projects now compile under Visual Studio 2013 with WDK 8.1 - <a href="https://github.com/EasyHook/EasyHook/issues/22" class="issue-link" title="EasyHookSys.sln/TestDriver is not compiling">#22</a> </li>
+            </ul>
+
+            <h5>v2.7.5719.0 Aug-27-2015</h5>
+
+            <ul>
+                <li>Fixed bug with CreateAndInject due to GetRemoteFuncAddress - <a href="https://github.com/EasyHook/EasyHook/issues/9" class="issue-link" title="CreateAndInject leads to crash">#9</a>, <a href="https://github.com/EasyHook/EasyHook/issues/7" class="issue-link" title="CreateAndInject failed - Beta 2.7.5558.0">#7</a></li>
+                <li>Implemented COM hooking helper, to retrieve COM class method addresses - <a href="https://github.com/EasyHook/EasyHook/issues/10" class="issue-link" title="Helper for hooking COM interfaces">#10</a>, see <a href="./api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a></li>
+                <li>Fix potential infinite loop in LhInstallHook - <a href="https://github.com/EasyHook/EasyHook/issues/17" class="issue-link" title="Infinite loop in LhInstallHook if no memory can be found.">#17</a></li>
+                <li>Post build now copies EasyHook32/64.lib correctly - <a href="https://github.com/EasyHook/EasyHook/issues/4" class="issue-link" title="Error linking to easyhook32.lib">#4</a> </li>
+                <li>Exceptions during remote assembly loading are now included in exception message - <a href="https://github.com/EasyHook/EasyHook/issues/5" class="issue-link" title="Throw actual exception instead of swallowing them in FindEntryPoint and throwing System.IO.FileNotFoundException">#5</a> </li>
+                <li>LhWaitForPendingRemovals can now timeout - <a href="https://github.com/EasyHook/EasyHook/issues/37" class="issue-link" title="LhWaitForPendingRemovals never times out">#37</a> </li>
+            </ul>
+
             <h5>v2.7.5558.0 Mar-21-2015:</h5>
 
             <ul>

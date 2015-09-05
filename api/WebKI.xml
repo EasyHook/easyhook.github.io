@@ -39,17 +39,17 @@
   <HelpKINode Title="CallingUnmanagedModule property" Url="html/P_EasyHook_HookRuntimeInfo_CallingUnmanagedModule.htm" />
   <HelpKINode Title="CloseHandle method" Url="html/M_EasyHook_NativeAPI_CloseHandle.htm" />
   <HelpKINode Title="COMClassInfo class">
-    <HelpKINode Title="COMClassInfo Class" Url="html/T_EasyHook_COM_COMClassInfo.htm" />
-    <HelpKINode Title="about COMClassInfo class" Url="html/T_EasyHook_COM_COMClassInfo.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_EasyHook_COM_COMClassInfo__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_EasyHook_COM_COMClassInfo.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_EasyHook_COM_COMClassInfo.htm" />
+    <HelpKINode Title="COMClassInfo Class" Url="html/T_EasyHook_COMClassInfo.htm" />
+    <HelpKINode Title="about COMClassInfo class" Url="html/T_EasyHook_COMClassInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_EasyHook_COMClassInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_EasyHook_COMClassInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_EasyHook_COMClassInfo.htm" />
   </HelpKINode>
-  <HelpKINode Title="COMClassInfo.COMClassInfo constructor" Url="html/Overload_EasyHook_COM_COMClassInfo__ctor.htm" />
-  <HelpKINode Title="COMClassInfo.IsModuleLoaded method" Url="html/M_EasyHook_COM_COMClassInfo_IsModuleLoaded.htm" />
-  <HelpKINode Title="COMClassInfo.LibraryOfFunction property" Url="html/P_EasyHook_COM_COMClassInfo_LibraryOfFunction.htm" />
-  <HelpKINode Title="COMClassInfo.MethodPointers property" Url="html/P_EasyHook_COM_COMClassInfo_MethodPointers.htm" />
-  <HelpKINode Title="COMClassInfo.Query method" Url="html/M_EasyHook_COM_COMClassInfo_Query.htm" />
+  <HelpKINode Title="COMClassInfo.COMClassInfo constructor" Url="html/Overload_EasyHook_COMClassInfo__ctor.htm" />
+  <HelpKINode Title="COMClassInfo.IsModuleLoaded method" Url="html/M_EasyHook_COMClassInfo_IsModuleLoaded.htm" />
+  <HelpKINode Title="COMClassInfo.LibraryOfFunction property" Url="html/P_EasyHook_COMClassInfo_LibraryOfFunction.htm" />
+  <HelpKINode Title="COMClassInfo.MethodPointers property" Url="html/P_EasyHook_COMClassInfo_MethodPointers.htm" />
+  <HelpKINode Title="COMClassInfo.Query method" Url="html/M_EasyHook_COMClassInfo_Query.htm" />
   <HelpKINode Title="Config class">
     <HelpKINode Title="Config Class" Url="html/T_EasyHook_Config.htm" />
     <HelpKINode Title="about Config class" Url="html/T_EasyHook_Config.htm" />
@@ -87,8 +87,7 @@
   <HelpKINode Title="Dispose method" Url="html/M_EasyHook_LocalHook_Dispose.htm" />
   <HelpKINode Title="DoNotRequireStrongName enumeration member" Url="html/T_EasyHook_InjectionOptions.htm" />
   <HelpKINode Title="EasyHook namespace" Url="html/N_EasyHook.htm" />
-  <HelpKINode Title="EasyHook.COM namespace" Url="html/N_EasyHook_COM.htm" />
-  <HelpKINode Title="EasyHook.COM.COMClassInfo class" Url="html/T_EasyHook_COM_COMClassInfo.htm" />
+  <HelpKINode Title="EasyHook.COMClassInfo class" Url="html/T_EasyHook_COMClassInfo.htm" />
   <HelpKINode Title="EasyHook.Config class" Url="html/T_EasyHook_Config.htm" />
   <HelpKINode Title="EasyHook.HelperServiceInterface class" Url="html/T_EasyHook_HelperServiceInterface.htm" />
   <HelpKINode Title="EasyHook.HookAccessControl class" Url="html/T_EasyHook_HookAccessControl.htm" />
@@ -252,7 +251,7 @@
   <HelpKINode Title="IsExclusive property" Url="html/P_EasyHook_HookAccessControl_IsExclusive.htm" />
   <HelpKINode Title="IsHandlerContext property" Url="html/P_EasyHook_HookRuntimeInfo_IsHandlerContext.htm" />
   <HelpKINode Title="IsInclusive property" Url="html/P_EasyHook_HookAccessControl_IsInclusive.htm" />
-  <HelpKINode Title="IsModuleLoaded method" Url="html/M_EasyHook_COM_COMClassInfo_IsModuleLoaded.htm" />
+  <HelpKINode Title="IsModuleLoaded method" Url="html/M_EasyHook_COMClassInfo_IsModuleLoaded.htm" />
   <HelpKINode Title="IsThreadIntercepted method" Url="html/M_EasyHook_LocalHook_IsThreadIntercepted.htm" />
   <HelpKINode Title="IsValidGuidScheme method" Url="html/M_System_GACManagedAccess_InstallReferenceGuid_IsValidGuidScheme.htm" />
   <HelpKINode Title="IsX64Process method" Url="html/M_EasyHook_RemoteHooking_IsX64Process.htm" />
@@ -272,7 +271,7 @@
   <HelpKINode Title="LhUninstallAllHooks method" Url="html/M_EasyHook_NativeAPI_LhUninstallAllHooks.htm" />
   <HelpKINode Title="LhUninstallHook method" Url="html/M_EasyHook_NativeAPI_LhUninstallHook.htm" />
   <HelpKINode Title="LhWaitForPendingRemovals method" Url="html/M_EasyHook_NativeAPI_LhWaitForPendingRemovals.htm" />
-  <HelpKINode Title="LibraryOfFunction property" Url="html/P_EasyHook_COM_COMClassInfo_LibraryOfFunction.htm" />
+  <HelpKINode Title="LibraryOfFunction property" Url="html/P_EasyHook_COMClassInfo_LibraryOfFunction.htm" />
   <HelpKINode Title="LoadLibrary method" Url="html/M_EasyHook_NativeAPI_LoadLibrary.htm" />
   <HelpKINode Title="LocalHook class">
     <HelpKINode Title="LocalHook Class" Url="html/T_EasyHook_LocalHook.htm" />
@@ -300,7 +299,7 @@
   <HelpKINode Title="ManagedStackTrace property" Url="html/P_EasyHook_HookRuntimeInfo_ManagedStackTrace.htm" />
   <HelpKINode Title="MAX_ACE_COUNT field" Url="html/F_EasyHook_NativeAPI_MAX_ACE_COUNT.htm" />
   <HelpKINode Title="MAX_HOOK_COUNT field" Url="html/F_EasyHook_NativeAPI_MAX_HOOK_COUNT.htm" />
-  <HelpKINode Title="MethodPointers property" Url="html/P_EasyHook_COM_COMClassInfo_MethodPointers.htm" />
+  <HelpKINode Title="MethodPointers property" Url="html/P_EasyHook_COMClassInfo_MethodPointers.htm" />
   <HelpKINode Title="MsiGuid field" Url="html/F_System_GACManagedAccess_InstallReferenceGuid_MsiGuid.htm" />
   <HelpKINode Title="NativeAPI class">
     <HelpKINode Title="NativeAPI Class" Url="html/T_EasyHook_NativeAPI.htm" />
@@ -377,7 +376,7 @@
   <HelpKINode Title="PrintComment method" Url="html/M_EasyHook_Config_PrintComment.htm" />
   <HelpKINode Title="PrintError method" Url="html/M_EasyHook_Config_PrintError.htm" />
   <HelpKINode Title="PrintWarning method" Url="html/M_EasyHook_Config_PrintWarning.htm" />
-  <HelpKINode Title="Query method" Url="html/M_EasyHook_COM_COMClassInfo_Query.htm" />
+  <HelpKINode Title="Query method" Url="html/M_EasyHook_COMClassInfo_Query.htm" />
   <HelpKINode Title="QueryAssemblyInfo method" Url="html/M_System_GACManagedAccess_AssemblyCache_QueryAssemblyInfo.htm" />
   <HelpKINode Title="ReferenceNotFound enumeration member" Url="html/T_System_GACManagedAccess_AssemblyCacheUninstallDisposition.htm" />
   <HelpKINode Title="Register method" Url="html/M_EasyHook_Config_Register.htm" />
