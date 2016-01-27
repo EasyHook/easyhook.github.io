@@ -39,7 +39,7 @@
 
             <p>Please report any bugs in the discussion forum or in the issue tracker.</p>
 
-            <h4>v2.7.5726.0 (Aug-27-2015):</h4>
+            <h4>v2.7.5870.0 (Jan-27-2016):</h4>
             <div style="float: right;">
                 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- MediumRectangle300x250 -->
@@ -48,15 +48,21 @@
                      data-ad-client="ca-pub-7073730100723702"
                      data-ad-slot="6607924329"></ins>
                 <script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
+                    (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </div>
             <ul class="release-downloads">
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5726.0/EasyHook-2.7.5726.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">642KB</small><span>EasyHook 2.7.5726.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5726.0.zip" class="download-zip" rel="nofollow"><small class="filesize">870KB</small><span>EasyHook 2.7.5726.0 Source code (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5870.0/EasyHook-2.7.5870.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">626KB</small><span>EasyHook 2.7.5870.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5870.0.zip" class="download-zip" rel="nofollow"><small class="filesize">878KB</small><span>EasyHook 2.7.5870.0 Source code (zip)</span></a></li>
                 <li><a href="./api/index.html" class="download-link"><span>EasyHook 2.7 API reference (link)</span></a></li>
                 <li><a href="./download.html?url=./downloads/EasyHook26Tutorial.pdf" class="download-pdf" rel="nofollow"><small class="filesize">424KB</small><span>EasyHook 2.6 Tutorial (pdf)</span></a></li>
                 <li><a href="./download.html?url=./downloads/EasyHook26UnmanagedAPI.pdf" class="download-pdf" rel="nofollow"><small class="filesize">387KB</small><span>EasyHook 2.6 Unmanaged API (pdf)</span></a></li>
+            </ul>
+            
+            <h4>v2.7.5726.0 (Sep-5-2015):</h4>
+            <ul class="release-downloads release-downloads-noad">
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5726.0/EasyHook-2.7.5726.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">642KB</small><span>EasyHook 2.7.5726.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
+                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5726.0.zip" class="download-zip" rel="nofollow"><small class="filesize">870KB</small><span>EasyHook 2.7.5726.0 Source code (zip)</span></a></li>
             </ul>
 
             <h4>v2.7.5719.0 (Aug-27-2015):</h4>
@@ -77,6 +83,14 @@
 
             <h4>Change log</h4>
             
+            <h5>v2.7.5870.0 Jan-27-2016</h5>
+            <ul>
+                <li>License changed to the MIT License </li>
+                <li>Loader reverts to using default AppDomain if a new AppDomain cannot be created. This works around an issue in the .NET Framework where if an executable uses a stack commit size larger than <code>0x3E000</code> bytes, creating a new app domain fails with an <code>OutOfMemoryException</code> resulting in an EasyHook code 15 error message. - <a href="https://github.com/EasyHook/EasyHook/issues/66" class="issue-link js-issue-link" data-url="https://github.com/EasyHook/EasyHook/issues/66" data-id="128993301" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#66</a></li>
+                <li><code>COMClassInfo</code> now queries the correct interface when specified a Guid - <a href="https://github.com/EasyHook/EasyHook/issues/46" class="issue-link js-issue-link" data-url="https://github.com/EasyHook/EasyHook/issues/46" data-id="106291681" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#46</a></li>
+                <li>Added missing X64_DRIVER define to 64bit driver project</li>
+            </ul>
+
             <h5>v2.7.5726.0 Sep-5-2015</h5>
 
             <ul>
