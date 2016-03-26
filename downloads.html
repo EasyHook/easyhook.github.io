@@ -1,191 +1,57 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/downloads.css" media="all" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>EasyHook - Downloads</title>
-  </head>
+---
+layout: default
+title: Downloads
+addstyle: <link rel="stylesheet" type="text/css" href="stylesheets/downloads.css" media="all" />
+---
+          <h2>
+            <a id="easyhook-27" class="anchor" href="#easyhook-27" aria-hidden="true"><span class="octicon octicon-link"></span></a>EasyHook 2.7 Beta Releases</h2>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+            <p>EasyHook 2.7 brings support for .NET 4.0, Visual Studio 2013/2015 and no longer requires assemblies to be registered into the Global Assembly Cache (GAC) for remote injection (although GAC registration is still supported).</p>
 
-        <header>
-          <h1>EasyHook - Downloads</h1>
-          <h2>The reinvention of Windows API Hooking</h2>
-        </header>
+            <p>The <code>EasyHook.IEntryPoint</code> supports method overloads for the constructor and Run() injection entry point. A matching constructor and Run() method pair must be defined for each overloaded set of parameters.</p>
 
-        <section id="downloads" class="clearfix">
-			<a href="./index.html" id="home" class=""><span>Home</span></a> | <a href="./api/index.html" id="api-reference" class=""><span>API Reference</span></a> <a href="https://github.com/EasyHook/EasyHook" id="view-on-github" class="button" style="float: right;"><span>View on GitHub</span></a>
-        </section>
-        <hr>
-        <section id="main_content">
-          <h3>
-            <a id="easyhook-27" class="anchor" href="#easyhook-27" aria-hidden="true"><span class="octicon octicon-link"></span></a>EasyHook 2.7 Beta Releases</h3>
+            <p>COM interfaces are now easier to hook with the <a href="{{ site.github.url }}/api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a> class that simplifies retrieval of method addresses from COM interfaces.</p>
 
-            <p>EasyHook 2.7 brings support for .NET 4.0, Visual Studio 2013 and no longer requires assemblies to be registered into the Global Assembly Cache (GAC) for remote injection (although GAC registration is still supported).</p>
-
-            <p>The EasyHook.IEntryPoint now supports method overloads for the constructor and Run() injection entry point. A matching constructor and Run() method pair must be defined for each overloaded set of parameters.</p>
-
-            <p>COM interfaces are now easier to hook with the <a href="./api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a> class that simplifies retrieval of method addresses from COM interfaces.</p>
-
-            <p>Please report any bugs in the discussion forum or in the issue tracker.</p>
-
-            <h4>v2.7.5870.0 (Jan-27-2016):</h4>
-            <div style="float: right;">
-                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- MediumRectangle300x250 -->
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:300px;height:250px"
-                     data-ad-client="ca-pub-7073730100723702"
-                     data-ad-slot="6607924329"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            <ul class="release-downloads">
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5870.0/EasyHook-2.7.5870.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">626KB</small><span>EasyHook 2.7.5870.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5870.0.zip" class="download-zip" rel="nofollow"><small class="filesize">878KB</small><span>EasyHook 2.7.5870.0 Source code (zip)</span></a></li>
-                <li><a href="./api/index.html" class="download-link"><span>EasyHook 2.7 API reference (link)</span></a></li>
-                <li><a href="./download.html?url=./downloads/EasyHook26Tutorial.pdf" class="download-pdf" rel="nofollow"><small class="filesize">424KB</small><span>EasyHook 2.6 Tutorial (pdf)</span></a></li>
-                <li><a href="./download.html?url=./downloads/EasyHook26UnmanagedAPI.pdf" class="download-pdf" rel="nofollow"><small class="filesize">387KB</small><span>EasyHook 2.6 Unmanaged API (pdf)</span></a></li>
-            </ul>
-            
-            <h4>v2.7.5726.0 (Sep-5-2015):</h4>
-            <ul class="release-downloads release-downloads-noad">
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5726.0/EasyHook-2.7.5726.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">642KB</small><span>EasyHook 2.7.5726.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5726.0.zip" class="download-zip" rel="nofollow"><small class="filesize">870KB</small><span>EasyHook 2.7.5726.0 Source code (zip)</span></a></li>
-            </ul>
-
-            <h4>v2.7.5719.0 (Aug-27-2015):</h4>
-            <p><strong>New:</strong> COM interfaces are now easier to hook with the <a href="./api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a> class that simplifies retrieval of method addresses from COM interfaces.</p>
-            <ul class="release-downloads release-downloads-noad">
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5719.0/EasyHook-2.7.5719.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">607KB</small><span>EasyHook 2.7.5719.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5719.0.zip" class="download-zip" rel="nofollow"><small class="filesize">866KB</small><span>EasyHook 2.7.5719.0 Source code (zip)</span></a></li>
-            </ul>
-
-            <h4>v2.7.5558.0:</h4>
-            
-            <ul class="release-downloads release-downloads-noad">
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/releases/download/v2.7.5558.0/EasyHook-2.7.5558.0-Binaries.zip" class="download-zip" rel="nofollow"><small class="filesize">745KB</small><span>EasyHook 2.7.5558.0 Binaries .NET 3.5/4.0 (zip)</span></a></li>
-                <li><a href="./download.html?url=https://github.com/EasyHook/EasyHook/archive/v2.7.5558.0.zip" class="download-zip" rel="nofollow"><small class="filesize">833KB</small><span>EasyHook 2.7.5558.0 Source code (zip)</span></a></li>
-            </ul>
+            <p>Please report any bugs in the <a href="https://github.com/EasyHook/EasyHook/issues" target="_blank">issue tracker</a>.</p>
 
             <p>Note: before extracting the ZIP file you may need to "Unblock" it if downloaded using Internet Explorer. See <a href="http://stackoverflow.com/a/8268636/323899" target="_blank">http://stackoverflow.com/a/8268636/323899</a></p>
-
-            <h4>Change log</h4>
+			
+            <h3>NuGet Packages</h3>
+            <p>EasyHook is available on NuGet for <a href="{{ site.github.url }}/redirect.html?url=https://www.nuget.org/packages/EasyHook/" target="_blank">.NET projects</a>, and <a href="{{ site.github.url }}/redirect.html?url=https://www.nuget.org/packages/EasyHookNativePackage/" target="_blank">native unmanaged projects</a>.</p>
             
-            <h5>v2.7.5870.0 Jan-27-2016</h5>
-            <ul>
-                <li>License changed to the MIT License </li>
-                <li>Loader reverts to using default AppDomain if a new AppDomain cannot be created. This works around an issue in the .NET Framework where if an executable uses a stack commit size larger than <code>0x3E000</code> bytes, creating a new app domain fails with an <code>OutOfMemoryException</code> resulting in an EasyHook code 15 error message. - <a href="https://github.com/EasyHook/EasyHook/issues/66" class="issue-link js-issue-link" data-url="https://github.com/EasyHook/EasyHook/issues/66" data-id="128993301" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#66</a></li>
-                <li><code>COMClassInfo</code> now queries the correct interface when specified a Guid - <a href="https://github.com/EasyHook/EasyHook/issues/46" class="issue-link js-issue-link" data-url="https://github.com/EasyHook/EasyHook/issues/46" data-id="106291681" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#46</a></li>
-                <li>Added missing X64_DRIVER define to 64bit driver project</li>
+{% for release in site.releases reversed %}
+    {% if forloop.first == true %}<a name="latest" class="anchor" href="#latest" ></a>{% endif %}<a name="{{ release.version }}" class="anchor" href="#{{ release.version }}" ></a>
+    <h3>v{{ release.version }} ({{ release.date | date: '%B %d, %Y' }}):</h3>
+    {% if release.downloads %}
+        {% if release.highlight %}{{ release.highlight | markdownify }}{% endif %}
+        {% if forloop.first == true %}
+{% include medrectad.html %}
+            <ul class="release-downloads">
+        {% else %}
+            <ul class="release-downloads release-downloads-noad">
+        {% endif %}
+        {% for download in release.downloads %}
+            <li><a href="{% if download.type != "link" %}{{ site.github.url }}/download.html?url={% endif %}{{ download.url }}" class="download-{{ download.type }}" rel="nofollow"><small class="filesize">{{ download.size }}</small><span>{{ download.title }}</span></a></li>
+        {% endfor %}
             </ul>
+        {% assign c = release.content | strip_newlines %}
+    {% endif %}
+    {% if c != '' %}
+      {{ release.content | markdownify }}
+    {% endif %}
+{% endfor %}
 
-            <h5>v2.7.5726.0 Sep-5-2015</h5>
-
-            <ul>
-                <li>Fixed bug where local Hook variable was not initialized correctly under certain circumstances - <a href="https://github.com/EasyHook/EasyHook/issues/38" class="issue-link" title="Potential LhFreeMemory call on random pointer">#38</a> </li>
-                <li>Addressed all significant compiler warnings - <a href="https://github.com/EasyHook/EasyHook/issues/39" class="issue-link" title="Address compiler warnings">#39</a> </li>
-                <li>Fixed COMClassInfo XML doco example and moved to EasyHook namespace</li>
-                <li>EasyHook driver projects now compile under Visual Studio 2013 with WDK 8.1 - <a href="https://github.com/EasyHook/EasyHook/issues/22" class="issue-link" title="EasyHookSys.sln/TestDriver is not compiling">#22</a> </li>
-            </ul>
-
-            <h5>v2.7.5719.0 Aug-27-2015</h5>
-
-            <ul>
-                <li>Fixed bug with CreateAndInject due to GetRemoteFuncAddress - <a href="https://github.com/EasyHook/EasyHook/issues/9" class="issue-link" title="CreateAndInject leads to crash">#9</a>, <a href="https://github.com/EasyHook/EasyHook/issues/7" class="issue-link" title="CreateAndInject failed - Beta 2.7.5558.0">#7</a></li>
-                <li>Implemented COM hooking helper, to retrieve COM class method addresses - <a href="https://github.com/EasyHook/EasyHook/issues/10" class="issue-link" title="Helper for hooking COM interfaces">#10</a>, see <a href="./api/html/T_EasyHook_COMClassInfo.htm" title="COMClassInfo Class"><code>EasyHook.COMClassInfo</code></a></li>
-                <li>Fix potential infinite loop in LhInstallHook - <a href="https://github.com/EasyHook/EasyHook/issues/17" class="issue-link" title="Infinite loop in LhInstallHook if no memory can be found.">#17</a></li>
-                <li>Post build now copies EasyHook32/64.lib correctly - <a href="https://github.com/EasyHook/EasyHook/issues/4" class="issue-link" title="Error linking to easyhook32.lib">#4</a> </li>
-                <li>Exceptions during remote assembly loading are now included in exception message - <a href="https://github.com/EasyHook/EasyHook/issues/5" class="issue-link" title="Throw actual exception instead of swallowing them in FindEntryPoint and throwing System.IO.FileNotFoundException">#5</a> </li>
-                <li>LhWaitForPendingRemovals can now timeout - <a href="https://github.com/EasyHook/EasyHook/issues/37" class="issue-link" title="LhWaitForPendingRemovals never times out">#37</a> </li>
-            </ul>
-
-            <h5>v2.7.5558.0 Mar-21-2015:</h5>
-
-            <ul>
-                <li>Fixed support for multiple injections in same target - NativeAPI.RhInjectLibrary hangs on injection of multiple libraries</li>
-                <li>Fixed CreateAndInject command line options.</li>
-                <li>Now builds in Visual Studio 2013.</li>
-                <li>The injected AppDomain will now remain until all assembly EntryPoints have exited.</li>
-                <li>Improved robustness of user assembly checking during injection</li>
-                <li>Unhandled .NET exceptions are now caught within CompleteManagedInjection for remote hooks</li>
-            </ul>
-            
-            <h5>2.7.5292.0 Jun-28-2014</h5>
-            <ul>
-                <li>EasyHook crashing targets, RhInjectLibrary on Win7 64bit, 32bit process, 32bit injection dll + launcher application = problem - now determines the address of GetProcAddress etc by reading the remote process' PE image</li>
-                <li>Easyhook was not unloaded when host is closed, Allow RemoteHook unloading - managed EasyHook.dll and user assemblies are now loaded into a new AppDomain which is then unloaded when the custom IEntryPoint Run method returns. A new assembly - EasyLoad32/64.dll - that makes use of managed DllExport's provides a more stable .NET framework initialisation.</li>
-                <li>FileMon example updated to no longer require the GAC</li>
-            </ul>
-
-            <h5>2.7.5159.0 Feb-15-2014</h5>
-            <ul>
-                <li>Hooking of CreateFile fails on Win 8.1 x64, Compatiblity With Windows Server 2012 And 8, Crashed Notepad in Win 8 64-bit, 2.7 FileMon crashes 64-bit processes, Do not work on Windows8 x64., relative mov in EntryPoint not handled - correctly relocates RIP addresses (64-bit). Windows 8/8.1 kernel32 APIs now all use RIP addressing when passing through to kernelbase.</li>
-                <li>Command-line arguments problem in RtlCreateSuspendedProcess - command line correctly passed through</li>
-                <li>Bug in RtlGetLastErrorString, RtlGetLastErrorString() returns empty string for invalidate parameter - fixed marshalling bug with RtlGetLastErrorString across managed boundary</li>
-                <li>Severe bug: LhWaitForPendingRemovals hangs forever - LhWaitForPendingRemovals endless loop under certain circumstance</li>
-                <li>Compiling 2.7 on VS 2012 fails with some issues - support for VS2012</li>
-                <li>Host process crashes when unloading hooks - fixed crashes when unloading 64-bit hooks. This also fixes the crash within the ProcessMonitor sample.</li>
-            </ul>
-
-            <h5>2.7.4761.0 Jan-13-2013</h5>
-            <ul>
-                <li>.Net 4.0 / Visual Studio 2010 - Implemented support for injection without using GAC registration or administrator privileges and added support for .NET 4.0 GAC interaction using managed GAC wrapper for InstallAssemblies/UninstallAssemblies</li>
-                <li>Eliminate GAC usage requirement - registration in the GAC is no longer a requirement to support injection</li>
-                <li>Memory leaks - fixed minor memory leak</li>
-                <li>Some programs hang during exit when hooked/EasyHook frozes terminating application - fixed target freezing when closing</li>
-                <li>Relocating entry point - added support for short unconditional jumps</li>
-                <li>Implement LhGetInstructionLength stub - implemented a new instruction length decoder (supports larger opcode set)</li>
-                <li>No GAC - passing complex object as inject parameter - support passing complex objects as parameters to EasyHook.IEntryPoint (even if not using GAC)</li>
-                <li>Support method overload in IEntryPoint - allows more flexibility when implementing EasyHook.IEntryPoint classes</li>
-                <li>Added build configurations for .NET 3.5 and .NET 4.0 allowing targeted builds for either framework version.</li>
-                <li>Added MSBuild script to build all configurations and prepare release packages</li>
-                <li>Build output path has been changed to ".\Build\Configuration\Platform\". E.g. ".\Build\netfx4-Debug\x64\"</li>
-            </ul>
-
-            <h3>
+            <h2>
                 <a id="bugs-and-questions" class="anchor" href="#bugs-and-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug reports or questions
-            </h3>
+            </h2>
 
             <p>Reporting bugs is the only way to get them fixed and help other users of the library!</p>
 
             <p>Please report issues and ask questions at: <a href="https://github.com/EasyHook/EasyHook/issues">https://github.com/EasyHook/EasyHook/issues</a></p>
 
-            <h3>
+            <h2>
                 <a id="donations" class="anchor" href="#donations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Donations
-            </h3>
+            </h2>
             Donations are greatly appreciated. If you find EasyHook useful, or are feeling generous and would like to make a donation to this project, we accept donation's via PayPal :)</p>
 
             <p><a title="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=spazzarama%40gmail%2ecom&amp;lc=AU&amp;item_name=EasyHook&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" alt="Donate" width="99" height="47"></a></p>
-        </section>
-
-        <footer>
-          Copyright 2015 Justin Stenning - Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-                  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-66127710-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-      </div>
-    </div>
-  </body>
-</html>

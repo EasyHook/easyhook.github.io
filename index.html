@@ -1,91 +1,45 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>EasyHook</title>
-  </head>
+---
+layout: default
+title: EasyHook
+---
+<h2>
+<a id="welcome-to-easyhook" class="anchor" href="#welcome-to-easyhook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to EasyHook</h2>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+<p>EasyHook makes it possible to extend (via hooking) unmanaged code APIs with pure managed functions, from within a fully managed environment on 32- or 64-bit Windows XP SP2, Windows Vista x64, Windows Server 2008 x64, Windows 7, Windows 8.1, and Windows 10.</p>
 
-        <header>
-          <h1>EasyHook</h1>
-          <h2>The reinvention of Windows API Hooking</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="./downloads.html" id="download"><span>Downloads</span></a> | <a href="./api/index.html" id="api-reference" class=""><span>API Reference</span></a>
-
-          <a href="https://github.com/EasyHook/EasyHook" id="view-on-github" class="button"><span>View on GitHub</span></a>        </section>
-        <hr>
-        <section id="main_content">
-          <h3>
-<a id="welcome-to-easyhook" class="anchor" href="#welcome-to-easyhook" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to EasyHook.</h3>
-
-<p>This project supports extending (hooking) unmanaged code (APIs) with pure managed ones, from within a fully managed environment on 32- or 64-bit Windows XP SP2, Windows Vista x64, Windows Server 2008 x64, Windows 7, Windows 8.1, and Windows 10</p>
-
-<p>EasyHook supports injecting assemblies built for .NET Framework 3.5 / 4.0 and native DLLs.</p>
+<p>EasyHook supports injecting assemblies built for .NET Framework 3.5 / 4.0+ as well as native DLLs.</p>
 
 <ul>
-    <li>Get the <a href="./downloads.html">current release</a>.</li>
-    <li>Refer to the <a href="./api/index.html" target="_blank">EasyHook 2.7 managed API reference</a>.</li>
+    <li>Get the <a href="./downloads.html#latest">latest release</a>.</li>
+    <li>Refer to the <a href="./documentation.html" target="_blank">documentation</a> for how to get started.</li>
     <li>Ask a question or raise issues on the <a href="https://github.com/EasyHook/EasyHook/issues">issue tracker</a> or <a href="https://gitter.im/EasyHook/EasyHook?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/03b4e90ae60d987ff270b1b0075cad04bed03e68/68747470733a2f2f6261646765732e6769747465722e696d2f45617379486f6f6b2f45617379486f6f6b2e737667" alt="Join the chat at https://gitter.im/EasyHook/EasyHook" data-canonical-src="https://badges.gitter.im/EasyHook/EasyHook.svg" style="max-width:100%;"></a></li>
-    <li>Take a look at the <a href="#easyhook-features">features of EasyHook</a>.</li>
+    <li>Take a look at the <a href="#features">features of EasyHook</a>.</li>
     <li>View the project on <a href="https://github.com/EasyHook/EasyHook">GitHub</a>.</li>
 </ul>
 
-<div style="margin-bottom: 10px">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- ResponsiveContentAd -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7073730100723702"
-     data-ad-slot="4513912328"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+<p>As of November 2015 EasyHook is released under the <a href="https://github.com/EasyHook/EasyHook#license">MIT license</a>.</p>
 
-<h3>
-<a id="bugs-and-questions" class="anchor" href="#bugs-and-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug reports or questions</h3>
+{% include responsivead.html %}
+
+<h2>
+<a id="bugs-and-questions" class="anchor" href="#bugs-and-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug reports or questions</h2>
 
 <p>Reporting bugs is the only way to get them fixed and help other users of the library!</p>
 
-<p>Please report issues and ask questions at: <a href="https://github.com/EasyHook/EasyHook/issues">https://github.com/EasyHook/EasyHook/issues</a> or <a href="https://gitter.im/EasyHook/EasyHook?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/03b4e90ae60d987ff270b1b0075cad04bed03e68/68747470733a2f2f6261646765732e6769747465722e696d2f45617379486f6f6b2f45617379486f6f6b2e737667" alt="Join the chat at https://gitter.im/EasyHook/EasyHook" data-canonical-src="https://badges.gitter.im/EasyHook/EasyHook.svg" style="max-width:100%;"></a></p>
+<p>Please report issues and ask questions on the <a href="https://github.com/EasyHook/EasyHook/issues">GitHub project issue tracker</a> or <a href="https://gitter.im/EasyHook/EasyHook?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/03b4e90ae60d987ff270b1b0075cad04bed03e68/68747470733a2f2f6261646765732e6769747465722e696d2f45617379486f6f6b2f45617379486f6f6b2e737667" alt="Join the chat at https://gitter.im/EasyHook/EasyHook" data-canonical-src="https://badges.gitter.im/EasyHook/EasyHook.svg" style="max-width:100%;"></a></p>
 
-<h3>
-<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h3>
-
-<p>EasyHook 2.7 <a href="./api/index.html" target="_blank">managed API reference</a></p>
-
-<p>EasyHook has been moved from its old <a href="https://easyhook.codeplex.com/">CodePlex repository</a>. You may like to browse the old discussion forums and issues list:</p>
-<ul>
-  <li>old discussion forum: <a href="https://easyhook.codeplex.com/discussions">https://easyhook.codeplex.com/discussions</a></li>
-  <li>old issues list: <a href="https://easyhook.codeplex.com/workitem/list/basic">https://easyhook.codeplex.com/workitem/list/basic</a></li>
-</ul>
-
-<h3>
-<a id="donations" class="anchor" href="#donations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Donations</h3>
+<h2>
+<a id="donations" class="anchor" href="#donations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Donations</h2>
 Donations are greatly appreciated. If you find EasyHook useful, or are feeling generous and would like to make a donation to this project, we accept donation's via PayPal :)</p>
 
 <p><a title="Donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=spazzarama%40gmail%2ecom&amp;lc=AU&amp;item_name=EasyHook&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" target="_blank"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" alt="Donate" width="99" height="47"></a></p>
 
-<h3>
-<a id="easyhook-features" class="anchor" href="#easyhook-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>The following is list of EasyHook features.</h3>
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
 <ul>
 <li>A "Thread Deadlock Barrier" deals with many core problems when hooking unknown APIs; this technology is unique to EasyHook</li>
 <li>You can write managed hook handlers for unmanaged APIs</li>
-<li>You can use all the convenience managed code provides, like .NET Remoting, WPF and WCF for example</li>
+<li>You can use all the convenience managed code provides, like .NET Remoting, WPF and WCF</li>
 <li>.NET assemblies are injected into a new AppDomain where possible, ensuring that your assemblies are completely unloaded from the target when detached</li>
 <li>You can write injection libraries and host processes compiled for AnyCPU, which allows you to inject your assembly into both 32- and 64-bit processes from 64- and 32-bit processes.</li>
 <li>Your .NET assemblies do not need to be registered in the Global Assembly Cache (GAC) - greatly simplifying development and releases</li>
@@ -93,7 +47,7 @@ Donations are greatly appreciated. If you find EasyHook useful, or are feeling g
 <li>Support for hooking COM interfaces</li>
 <li>A documented, pure unmanaged hooking API</li>
 <li>No resource or memory leaks are left in the target</li>
-<li>EasyHook32.dll and EasyHook64.dll are pure unmanaged modules and can be used without any .NET framework installed!</li>
+<li>EasyHook32.dll and EasyHook64.dll are native libraries that can be used without any .NET framework installed</li>
 <li>All hooks are installed and automatically removed in a stable manner</li>
 <li>Support for Thread ACLs to control which threads will use the hook</li>
 <li>Experimental stealth injection mechanism that won't raise attention of AV Software</li>
@@ -101,34 +55,14 @@ Donations are greatly appreciated. If you find EasyHook useful, or are feeling g
 <li>Get calling managed/unmanaged module inside a hook handler</li>
 <li>Create custom stack traces inside a hook handler</li>
 <li>No unpacking/installation necessary.</li>
-<li>The Visual Studio Redistributable is not required.</li>
+<li>The Visual Studio redistributables are not required.</li>
+<li>Support for 32- and 64-bit kernel mode hooking - however no support for bypassing PatchGuard is supplied</li>
 <!--<li>Support for 32- and 64-bit kernel mode hooking (also check out the PatchGuard 3 bypass driver which can be found in the release list on the old CodePlex site)</li>-->
 </ul>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<h2>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h2>
 
 <p>EasyHook was originally released by Christoph Husse in 2008 and since 2012 has been maintained by Justin Stenning (<a href="https://github.com/spazzarama" class="user-mention">@spazzarama</a>). The project moved from CodePlex to GitHub in August 2015.</p>
 <p>As of November 2015 EasyHook is now released under the MIT license.</p>
 <p>EasyHook includes the UDIS86 library Copyright (c) 2002-2012, Vivek Thampi <vivek.mt@gmail.com> - <a href="https://github.com/vmt/udis86" target="_blank">https://github.com/vmt/udis86</a></p>
-        </section>
-
-        <footer>
-          Copyright 2015 Justin Stenning - Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-                  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-66127710-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-      </div>
-    </div>
-  </body>
-</html>

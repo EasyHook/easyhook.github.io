@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ "/css/stylesheet.css" | prepend: site.baseurl }}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ "/css/github-dark.css" | prepend: site.baseurl }}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ "/css/print.css" | prepend: site.baseurl }}" media="print">
+	{{ page.addstyle }}
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>EasyHook{% if page.title != "EasyHook" %} - {{ page.title }} {% endif %}</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>EasyHook{% if page.title != "EasyHook" %} - {{ page.title }}{% endif %}</h1>
+          <h2>The reinvention of Windows API Hooking</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="{{ site.github.url }}/index.html" id="download"><span>Home</span></a> | 
+          <a href="{{ site.github.url }}/downloads.html" id="download"><span>Downloads</span></a> | 
+          <a href="{{ site.github.url }}/documentation.html" id="documentation"><span>Documentation</span></a> |
+          <!--<a href="{{ site.github.url }}/api/index.html" id="api-reference" class=""><span>API Reference</span></a> | -->
+          <a href="{{ site.github.url }}/tutorials.html" id="tutorials"><span>Tutorials</span></a>
+          
+          <a href="https://github.com/EasyHook/EasyHook" id="view-on-github" class="button"><span>View on GitHub</span></a>        </section>
+        <hr>
+        <section id="main_content">
+		
+		{{ content }}
+         
+        </section>
+
+		{% include footer.html %}
+
+      </div>
+    </div>
+  </body>
+</html>
