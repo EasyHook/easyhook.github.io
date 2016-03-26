@@ -3,7 +3,7 @@ layout: page
 title: Creating a local hook
 ---
 <h2>Creating a local hook</h2>
-A local hook is a hook that runs from within the process that your code is running within.
+A local hook is a hook that targets the same process that your code is running within.
 
 To install a local hook we need to do four things:
 {% include medrectad.html %}
