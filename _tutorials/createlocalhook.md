@@ -15,7 +15,7 @@ To install a local hook we need to do four things:
 The complete sample is provided [below](#fullexample).
  
 <h3>1. Retrieving the native method's address</h3>
-Assuming that the method you wish to hook is exported by the target module we can use `LocalHook.GetProcAddress` to retrieve the method address, e.g. to retrieve the address of the MessageBeep method exported by user32.dll we would use the following snippet: 
+If that the method you wish to hook is exported by the DLL, we can use `LocalHook.GetProcAddress` to retrieve the method address. E.g. to retrieve the address of the `user32!MessageBeep` method exported by user32.dll we would use the following code: 
 {% highlight csharp %}
 LocalHook.GetProcAddress("user32.dll", "MessageBeep");
 {% endhighlight %}
