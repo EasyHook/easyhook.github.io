@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Creating a local hook
+managed: true
 ---
 <h2>Creating a local hook</h2>
 A local hook is a hook that targets the same process that your code is running within.
