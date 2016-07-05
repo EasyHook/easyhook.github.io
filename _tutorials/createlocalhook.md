@@ -14,7 +14,9 @@ To install a local hook we need to do four things:
  4. Lastly we need to create the hook using `LocalHook.Create`, passing in the original method address and the replacement delegate.
 
 The complete sample is provided [below](#fullexample).
- 
+
+The full managed BeepHook tutorial source project can be [found here](https://github.com/EasyHook/EasyHook-Tutorials/tree/master/Managed/BeepHook).
+
 <h3>1. Retrieving the native method's address</h3>
 If that the method you wish to hook is exported by the DLL, we can use `LocalHook.GetProcAddress` to retrieve the method address. E.g. to retrieve the address of the `user32!MessageBeep` method exported by user32.dll we would use the following code: 
 {% highlight csharp %}
