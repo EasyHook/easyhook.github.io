@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Installing a remote hook using EasyHook with C++
+index: 02
 managed: false
 ---
 <h2>Installing a remote hook using EasyHook with C++</h2>
@@ -50,6 +51,8 @@ int _tmain(int argc, _TCHAR* argv[])
 The injector is a new **Win32 Console Application** project called "Injector". This is often also referred to as the host application and will be responsible for injecting a DLL into the target application.
 
 This app will ask for the target process Id, then the frequency by which we want to change the sound of calls to `Beep` within the target process. These are then passed into a call to EasyHook's `RhInjectLibrary` function along with the location of the 32-bit DLL to be injected. 
+
+Install the **EasyHook Native Package** from NuGet (you will see more than one package if you search for EasyHook, you are after the "EasyHook **Native** Package"). Alternatively you can download the EasyHook binary package and manually reference the EasyHook library and "easyhook.h" (see [Manually adding EasyHook to your C++ project](nativemanuallyaddref.html)).
 
 If targeting 64-bit applications it would be necessary to provide a 64-bit DLL to be injected. **Note:** unlike the managed EasyHook library the native injection method does not support crossing the Wow64 boundary, therefore your injector app and injection DLL must be compiled for 32-bit and/or 64-bit as required.
 
@@ -112,7 +115,7 @@ The hook DLL is a new **Win32 Project** called "BeepHook", select "DLL" as the A
 
 ![Win32 Project wizard](nativeremotehook/Win32AppWiz-BeepHook.png)
 
-Install the **EasyHook Native Package** from NuGet (you will see more than one package if you search for EasyHook, you are after the "EasyHook **Native** Package"). Alternatively you can download the binary package from the EasyHook GitHub repository and manually reference the EasyHook library and "easyhook.h".
+Install the **EasyHook Native Package** from NuGet (you will see more than one package if you search for EasyHook, you are after the "EasyHook **Native** Package"). Alternatively you can download the EasyHook binary package and manually reference the EasyHook library and "easyhook.h" (see [Manually adding EasyHook to your C++ project](nativemanuallyaddref.html)).
 
 We will create the `myBeepHook` function as defined within "[Using EasyHook with C++](nativehook.html)", except that this time we will allow the frequency to be configured using a global frequency offset that has been provided by the injector application.
 

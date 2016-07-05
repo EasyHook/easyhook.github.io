@@ -2,15 +2,16 @@
 layout: default
 title: Tutorials
 ---
+{% assign sorted_tutorials = (site.tutorials | sort: 'index') %}
 <h2>Managed (.NET) Tutorials</h2>
-{% for tutorial in site.tutorials %}
+{% for tutorial in sorted_tutorials %}
   {% if tutorial.managed == true %}
  1. [{{ tutorial.title }}]({{ tutorial.url }})
   {% endif %}
 {% endfor %}
 
 <h2>Native Tutorials</h2>
-{% for tutorial in site.tutorials %}
+{% for tutorial in sorted_tutorials %}
   {% if tutorial.managed == false %}
  1. [{{ tutorial.title }}]({{ tutorial.url }})
   {% endif %}

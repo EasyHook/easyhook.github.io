@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Using EasyHook with C++
+index: 01
 managed: false
 ---
 <h2>Using EasyHook with C++</h2>
@@ -9,7 +10,7 @@ In this tutorial we will use EasyHook to hook the Win API [Beep](https://msdn.mi
 Preparation:
 
  1. Create a new C++ console app
- 2. Install the EasyHook Native Package from NuGet (you will see more than one package if you search for EasyHook, you are after only the "EasyHook Native Package")
+ 2. Install the EasyHook Native Package from NuGet (you will see more than one package if you search for EasyHook, you are after only the "EasyHook **Native** Package"). Alternatively you can download the EasyHook binary package and manually reference the EasyHook library and "easyhook.h" (see [Manually adding EasyHook to your C++ project](nativemanuallyaddref.html)).
  3. Adding `#include <easyhook.h>` will allow us to call the EasyHook functions.
 
 With our sample we will be demonstrating how to do the following:
@@ -18,7 +19,6 @@ With our sample we will be demonstrating how to do the following:
  2. Gain an understanding of the original function's parameters and calling convention.
  3. Prepare a replacement function that has the same number and type of parameters, as well as the same calling convention as the original function.
  4. We will use LhInstallHook to create the hook by adding a trampoline to the start of the original method. We will also uninstall the hook once we are done with it.
- 
 
 The complete example can be found at the [end of this post](#fullexample).
 
@@ -122,7 +122,6 @@ BOOL WINAPI myBeepHook(DWORD dwFreq, DWORD dwDuration)
 int _tmain(int argc, _TCHAR* argv[])
 {
     HOOK_TRACE_INFO hHook = { NULL }; // keep track of our hook
-    cout << pBeep;
     cout << "\n";
     cout << GetProcAddress(GetModuleHandle(TEXT("kernel32")), "Beep");
     
