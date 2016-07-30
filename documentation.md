@@ -20,6 +20,8 @@ If you are new to EasyHook you may want to start with learning how to [create a 
 
 Check out the [EasyHook 2.7 managed API reference](./api/) for more details on the EasyHook classes.
 
+If you are interested in the unmanaged API, take a look at the [native/unmanaged tutorials](./tutorials.html)
+
 There is also an older [EasyHook unmanaged API reference](./download.html?url=./downloads/EasyHook26UnmanagedAPI.pdf).
 
 EasyHook was moved from its old [CodePlex repository](https://easyhook.codeplex.com/). You may like to browse the old discussion forums and issues list:

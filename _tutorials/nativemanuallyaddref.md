@@ -12,7 +12,7 @@ Here we walk through one way of manually adding a reference to EasyHook in your 
 {% include medrectad.html %}
  1. Download the latest EasyHook binary package from [downloads](../downloads.html).
  2. Extract the binaries (in this example it has been extracted to a new folder under the project)
- 3. Within your project properties add one of the EasyHook paths to your Include and Library paths, e.g. `.\EasyHook-2.7.5870.0-Binaries\NetFX3.5` Note: it does not matter which EasyHook folder you reference, as the native DLLs are the same.
+ 3. Within your project properties add the EasyHook path to your Include and Library paths, e.g. `.\EasyHook-2.7.5870.0-Binaries\NetFX3.5` Note: it does not matter which EasyHook folder you reference, as the native DLLs are the same.
  4. Copy EasyHook32.dll and/or EasyHook64.dll from the EasyHook binaries to your build directory or add a build task to do it for you.
  5. You can now add the following to your code:
 {% highlight c++ %}
