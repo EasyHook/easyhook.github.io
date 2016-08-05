@@ -2,6 +2,7 @@
 layout: page
 title: Installing a remote hook using EasyHook with C++
 index: 02
+comments: true
 managed: false
 ---
 <h2>Installing a remote hook using EasyHook with C++</h2>

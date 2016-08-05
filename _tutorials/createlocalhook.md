@@ -2,6 +2,7 @@
 layout: page
 title: Creating a local hook
 index: 01
+comments: true
 managed: true
 ---
 <h2>Creating a local hook</h2>

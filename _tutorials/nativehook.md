@@ -2,6 +2,7 @@
 layout: page
 title: Using EasyHook with C++
 index: 01
+comments: true
 managed: false
 ---
 <h2>Using EasyHook with C++</h2>

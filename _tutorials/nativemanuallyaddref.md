@@ -2,6 +2,7 @@
 layout: page
 title: Manually adding EasyHook to your C++ project
 index: 03
+comments: true
 managed: false
 ---
 <h2>Manually adding EasyHook to your C++ project</h2>
