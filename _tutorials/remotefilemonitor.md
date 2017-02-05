@@ -36,23 +36,21 @@ Remote hooking generally involves first injecting a payload from the "injector" 
 
 For this purpose, the EasyHook library provides the [`EasyHook.RemoteHooking`](/api/html/T_EasyHook_RemoteHooking.htm) static class and the [`EasyHook.IEntryPoint`](/api/html/T_EasyHook_IEntryPoint.htm) interface. 
 
-Hooks will still be created using the `EasyHook.LocalHook` class from within the payload (see [Creating a local hook](./createlocalhook.html)).
 
-
- 1. [`EasyHook.RemoteHooking.Inject`](/api/html/M_EasyHook_RemoteHooking_Inject_1.htm): injects the specified 32-bit/64-bit library into the process identified by the provided process Id. Parameters can be provided that are passed into the injected library.
- 1. [`EasyHook.RemoteHooking.CreateAndInject`](/api/html/M_EasyHook_RemoteHooking_CreateAndInject.htm): creates a new process in a suspended state from the provided executable path and command line, and then injects the specified 32-bit/64-bit library as per `Inject`.
+ 1. [`EasyHook.RemoteHooking.Inject`](/api/html/M_EasyHook_RemoteHooking_Inject_1.htm): injects the specified 32-bit/64-bit payload assembly into the process identified by the provided process Id. Parameters can be provided that are passed into the injected library.
+ 1. [`EasyHook.RemoteHooking.CreateAndInject`](/api/html/M_EasyHook_RemoteHooking_CreateAndInject.htm): creates a new process in a suspended state from the provided executable path and command line, and then injects the specified 32-bit/64-bit payload assembly as per `Inject`.
  1. [`EasyHook.RemoteHooking.WakeUpProcess`](/api/html/M_EasyHook_RemoteHooking_WakeUpProcess.htm): used in conjunction with `CreateAndInject` from the payload/injected library to wake up the process when ready.
  1. [`EasyHook.RemoteHooking.IpcCreateServer<T>`](/api/html/M_EasyHook_RemoteHooking_IpcCreateServer__1.htm): a helper method used to initialise an IPC channel from the injector / host.
  1. [`EasyHook.RemoteHooking.IpcConnectClient<T>`](/api/html/M_EasyHook_RemoteHooking_IpcConnectClient__1.htm): a helper method used to connect the client to the IPC channel after injection (called from within injected library running in the target process)
  1. [`EasyHook.IEntryPoint`](/api/html/T_EasyHook_IEntryPoint.htm): the payload assembly must include a public class that implements this interface.
  
-Once injected the payload is able to use `EasyHook.LocalHook` to create the hooks.
+Once injected the payload will use `EasyHook.LocalHook` to create the hooks (see [Creating a local hook](./createlocalhook.html)).
 
-<h4>EasyHook.RemoteHooking.Inject</h4>
+<h4>Internals of EasyHook.RemoteHooking.Inject</h4>
  
  1. `EasyHook.RemoteHooking.Inject` serializes the configuration, including the payload assembly path and parameters
- 1. Injects the native EasyHook32/64.dll into the specified target process.
-    <br />`EasyHook.RemoteHooking.Inject` will wait until it is signalled or times out.
+ 1. Injects the native EasyHook32/64.dll into the specified target process depending on whether it is 32-bit or 64-bit. If necessary EasyHook will automatically use the EasyHookSvc32/64.exe helper to inject from 32-bit into 64-bit and vice versa. 
+    <br />`EasyHook.RemoteHooking.Inject` will wait here until it times out or until it has been signalled that injection has completed/failed.
     <br />*-- now running within target process --*
  1. EasyHook32/64.dll completes "managed injection" by loading EasyLoad32/64.dll
     <br />(EasyLoad attempts to create a new AppDomain so that the injection library can be unloaded)
@@ -63,7 +61,7 @@ Once injected the payload is able to use `EasyHook.LocalHook` to create the hook
     1. Payload's `Run` method installs any hooks
  1. Finally when the `Run` method exits, EasyLoad will attempt to unload the AppDomain
  
-<h4>EasyHook.RemoteHooking.CreateAndInject</h4>
+<h4>Internals of EasyHook.RemoteHooking.CreateAndInject</h4>
  
  1. Creates the target process in a suspended state using the provided executable name and command line.
  1. Follows the same logic as `EasyHook.RemoteHooking.Inject`
@@ -597,7 +595,7 @@ Add a reference to `FileMonitorHook` that we added previously so that we can mak
 
 Within Program.cs we will create the following two static methods:
 
- - Main: the program entry point where we will perform the injection and then wait for the user to; and
+ - Main: the program entry point where we will perform the injection and then wait for the user to exit; and
  - ProcessArgs: (to process the command line arguments).
 
 <h4>FileMonitor console app code</h4>
