@@ -591,9 +591,6 @@ public class InjectionEntryPoint: EasyHook.IEntryPoint
 
 Add a new C# console app project to the solution called `FileMonitor`.
 
-In order to use with both 32-bit and 64-bit targets, be sure to go into the project properties and untick the "Prefer 32-bit" so that you can use with both 32-bit and 64-bit targets.
-![FileMonitor console properties](remotefilemonitor/FileMonitor_UntickPrefer32bit.png)
-
 Add the EasyHook NuGet package (right-click on the FileMonitor project, Manage NuGet Packages...), search for EasyHook and install.
 
 Add a reference to `FileMonitorHook` that we added previously so that we can make use of the `ServerInterface` class we created.
