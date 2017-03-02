@@ -173,6 +173,7 @@
   <HelpKINode Title="HookAccessControl.IsInclusive property" Url="html/P_EasyHook_HookAccessControl_IsInclusive.htm" />
   <HelpKINode Title="HookAccessControl.SetExclusiveACL method" Url="html/M_EasyHook_HookAccessControl_SetExclusiveACL.htm" />
   <HelpKINode Title="HookAccessControl.SetInclusiveACL method" Url="html/M_EasyHook_HookAccessControl_SetInclusiveACL.htm" />
+  <HelpKINode Title="HookBypassAddress property" Url="html/P_EasyHook_LocalHook_HookBypassAddress.htm" />
   <HelpKINode Title="HookRuntimeInfo class">
     <HelpKINode Title="HookRuntimeInfo Class" Url="html/T_EasyHook_HookRuntimeInfo.htm" />
     <HelpKINode Title="about HookRuntimeInfo class" Url="html/T_EasyHook_HookRuntimeInfo.htm" />
@@ -262,6 +263,7 @@
   <HelpKINode Title="LhBarrierGetCallback method" Url="html/M_EasyHook_NativeAPI_LhBarrierGetCallback.htm" />
   <HelpKINode Title="LhBarrierGetCallingModule method" Url="html/M_EasyHook_NativeAPI_LhBarrierGetCallingModule.htm" />
   <HelpKINode Title="LhBarrierGetReturnAddress method" Url="html/M_EasyHook_NativeAPI_LhBarrierGetReturnAddress.htm" />
+  <HelpKINode Title="LhGetHookBypassAddress method" Url="html/M_EasyHook_NativeAPI_LhGetHookBypassAddress.htm" />
   <HelpKINode Title="LhInstallHook method" Url="html/M_EasyHook_NativeAPI_LhInstallHook.htm" />
   <HelpKINode Title="LhIsThreadIntercepted method" Url="html/M_EasyHook_NativeAPI_LhIsThreadIntercepted.htm" />
   <HelpKINode Title="LhSetExclusiveACL method" Url="html/M_EasyHook_NativeAPI_LhSetExclusiveACL.htm" />
@@ -292,6 +294,7 @@
   <HelpKINode Title="LocalHook.GetProcessIdByHandle method" Url="html/M_EasyHook_LocalHook_GetProcessIdByHandle.htm" />
   <HelpKINode Title="LocalHook.GetThreadIdByHandle method" Url="html/M_EasyHook_LocalHook_GetThreadIdByHandle.htm" />
   <HelpKINode Title="LocalHook.GlobalThreadACL property" Url="html/P_EasyHook_LocalHook_GlobalThreadACL.htm" />
+  <HelpKINode Title="LocalHook.HookBypassAddress property" Url="html/P_EasyHook_LocalHook_HookBypassAddress.htm" />
   <HelpKINode Title="LocalHook.IsThreadIntercepted method" Url="html/M_EasyHook_LocalHook_IsThreadIntercepted.htm" />
   <HelpKINode Title="LocalHook.Release method" Url="html/M_EasyHook_LocalHook_Release.htm" />
   <HelpKINode Title="LocalHook.ThreadACL property" Url="html/P_EasyHook_LocalHook_ThreadACL.htm" />
@@ -327,6 +330,7 @@
   <HelpKINode Title="NativeAPI.LhBarrierGetCallback method" Url="html/M_EasyHook_NativeAPI_LhBarrierGetCallback.htm" />
   <HelpKINode Title="NativeAPI.LhBarrierGetCallingModule method" Url="html/M_EasyHook_NativeAPI_LhBarrierGetCallingModule.htm" />
   <HelpKINode Title="NativeAPI.LhBarrierGetReturnAddress method" Url="html/M_EasyHook_NativeAPI_LhBarrierGetReturnAddress.htm" />
+  <HelpKINode Title="NativeAPI.LhGetHookBypassAddress method" Url="html/M_EasyHook_NativeAPI_LhGetHookBypassAddress.htm" />
   <HelpKINode Title="NativeAPI.LhInstallHook method" Url="html/M_EasyHook_NativeAPI_LhInstallHook.htm" />
   <HelpKINode Title="NativeAPI.LhIsThreadIntercepted method" Url="html/M_EasyHook_NativeAPI_LhIsThreadIntercepted.htm" />
   <HelpKINode Title="NativeAPI.LhSetExclusiveACL method" Url="html/M_EasyHook_NativeAPI_LhSetExclusiveACL.htm" />
