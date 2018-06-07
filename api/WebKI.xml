@@ -64,6 +64,7 @@
   <HelpKINode Title="Config.GetProcessPath method" Url="html/M_EasyHook_Config_GetProcessPath.htm" />
   <HelpKINode Title="Config.GetSvcExecutableName method" Url="html/M_EasyHook_Config_GetSvcExecutableName.htm" />
   <HelpKINode Title="Config.GetWOW64BypassExecutableName method" Url="html/M_EasyHook_Config_GetWOW64BypassExecutableName.htm" />
+  <HelpKINode Title="Config.HelperLibraryLocation property" Url="html/P_EasyHook_Config_HelperLibraryLocation.htm" />
   <HelpKINode Title="Config.PrintComment method" Url="html/M_EasyHook_Config_PrintComment.htm" />
   <HelpKINode Title="Config.PrintError method" Url="html/M_EasyHook_Config_PrintError.htm" />
   <HelpKINode Title="Config.PrintWarning method" Url="html/M_EasyHook_Config_PrintWarning.htm" />
@@ -146,6 +147,7 @@
   <HelpKINode Title="GuidScheme property" Url="html/P_System_GACManagedAccess_InstallReference_GuidScheme.htm" />
   <HelpKINode Title="Handle property" Url="html/P_EasyHook_HookRuntimeInfo_Handle.htm" />
   <HelpKINode Title="HasInstallReference enumeration member" Url="html/T_System_GACManagedAccess_AssemblyCacheUninstallDisposition.htm" />
+  <HelpKINode Title="HelperLibraryLocation property" Url="html/P_EasyHook_Config_HelperLibraryLocation.htm" />
   <HelpKINode Title="HelperServiceInterface class">
     <HelpKINode Title="HelperServiceInterface Class" Url="html/T_EasyHook_HelperServiceInterface.htm" />
     <HelpKINode Title="about HelperServiceInterface class" Url="html/T_EasyHook_HelperServiceInterface.htm" />
